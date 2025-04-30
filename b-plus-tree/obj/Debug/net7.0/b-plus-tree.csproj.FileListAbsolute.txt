@@ -1,0 +1,15 @@
+D:\programming\b-plus-tree\b-plus-tree\bin\Debug\net7.0\b-plus-tree.exe
+D:\programming\b-plus-tree\b-plus-tree\bin\Debug\net7.0\b-plus-tree.deps.json
+D:\programming\b-plus-tree\b-plus-tree\bin\Debug\net7.0\b-plus-tree.runtimeconfig.json
+D:\programming\b-plus-tree\b-plus-tree\bin\Debug\net7.0\b-plus-tree.dll
+D:\programming\b-plus-tree\b-plus-tree\bin\Debug\net7.0\b-plus-tree.pdb
+D:\programming\b-plus-tree\b-plus-tree\obj\Debug\net7.0\b-plus-tree.csproj.AssemblyReference.cache
+D:\programming\b-plus-tree\b-plus-tree\obj\Debug\net7.0\b-plus-tree.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming\b-plus-tree\b-plus-tree\obj\Debug\net7.0\b-plus-tree.AssemblyInfoInputs.cache
+D:\programming\b-plus-tree\b-plus-tree\obj\Debug\net7.0\b-plus-tree.AssemblyInfo.cs
+D:\programming\b-plus-tree\b-plus-tree\obj\Debug\net7.0\b-plus-tree.csproj.CoreCompileInputs.cache
+D:\programming\b-plus-tree\b-plus-tree\obj\Debug\net7.0\b-plus-tree.dll
+D:\programming\b-plus-tree\b-plus-tree\obj\Debug\net7.0\refint\b-plus-tree.dll
+D:\programming\b-plus-tree\b-plus-tree\obj\Debug\net7.0\b-plus-tree.pdb
+D:\programming\b-plus-tree\b-plus-tree\obj\Debug\net7.0\b-plus-tree.genruntimeconfig.cache
+D:\programming\b-plus-tree\b-plus-tree\obj\Debug\net7.0\ref\b-plus-tree.dll
