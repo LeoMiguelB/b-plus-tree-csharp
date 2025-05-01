@@ -13,3 +13,8 @@ D:\programming\b-plus-tree\b-plus-tree\obj\Debug\net7.0\refint\b-plus-tree.dll
 D:\programming\b-plus-tree\b-plus-tree\obj\Debug\net7.0\b-plus-tree.pdb
 D:\programming\b-plus-tree\b-plus-tree\obj\Debug\net7.0\b-plus-tree.genruntimeconfig.cache
 D:\programming\b-plus-tree\b-plus-tree\obj\Debug\net7.0\ref\b-plus-tree.dll
+D:\programming\b-plus-tree\b-plus-tree\bin\Debug\net7.0\xunit.abstractions.dll
+D:\programming\b-plus-tree\b-plus-tree\bin\Debug\net7.0\xunit.assert.dll
+D:\programming\b-plus-tree\b-plus-tree\bin\Debug\net7.0\xunit.core.dll
+D:\programming\b-plus-tree\b-plus-tree\bin\Debug\net7.0\xunit.execution.dotnet.dll
+D:\programming\b-plus-tree\b-plus-tree\obj\Debug\net7.0\b-plus-tree.csproj.CopyComplete

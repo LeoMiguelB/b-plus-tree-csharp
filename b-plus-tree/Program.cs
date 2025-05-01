@@ -1,6 +1,35 @@
-﻿using System.Xml.Linq;
-BPlusTree t = new BPlusTree() { Order = 3 };
+﻿using System.Text;
 
+BPTree t = new BPTree() { Order = 3 };
+
+//split a root
+//t.InsertVal(1, 1);
+//t.InsertVal(2, 2);
+//t.InsertVal(3, 3);
+
+// split leaf where we need to insert children where index > 0 in the children array
+//t.InsertVal(1, 1);
+//t.InsertVal(2, 2);
+//t.InsertVal(3, 3);
+//t.InsertVal(4, 4);
+
+// split leaf where we need to insert children at the start of the children array (index == 0)
+//t.InsertVal(3, 3);
+//t.InsertVal(4, 4);
+//t.InsertVal(5, 5);
+//t.InsertVal(1, 1);
+//t.InsertVal(2, 2);
+
+// split internal node on left 
+//t.InsertVal(5, 5);
+//t.InsertVal(6, 6);
+//t.InsertVal(7, 7);
+//t.InsertVal(4, 4);
+//t.InsertVal(3, 3);
+//t.InsertVal(2, 2);
+//t.InsertVal(1, 1);
+
+//split internal node on the right
 t.InsertVal(1, 1);
 t.InsertVal(2, 2);
 t.InsertVal(3, 3);
@@ -9,16 +38,15 @@ t.InsertVal(5, 5);
 t.InsertVal(6, 6);
 t.InsertVal(7, 7);
 
-t.PrintTree(t.GetRoot());
+t.PrintTree();
 
-
-public class BPlusTree
+public class BPTree
 {
 	public int Order { get; set; }
 
 	private BPlusNode _root;
 
-	public BPlusTree(int order = 3)
+	public BPTree(int order = 3)
 	{
 		this.Order = order;
 		_root = new BPlusNode();
@@ -111,7 +139,7 @@ public class BPlusTree
 			{
 				// both have to be replaced here since we are changing the children at the beginning of the list
 				parent.Children[0] = lNode;
-				parent.Children[1] = rNode;
+				parent.Children.Insert(1, rNode);
 			}
 
 			lNode.Parent = parent;
@@ -285,11 +313,20 @@ public class BPlusTree
 	}
 
 
-	public void PrintTree(BPlusNode n, int counter = 0)
+	public String PrintTree()
 	{
-		Console.Write($"{counter}: ");
-		n.Keys.ToList().ForEach(k => Console.Write($"{k},"));
-		Console.WriteLine();
+		StringBuilder treeStrBuilder = new StringBuilder();
+		PrintHelper(_root, treeStrBuilder);
+
+		Console.WriteLine(treeStrBuilder.ToString());
+		return treeStrBuilder.ToString();
+	}
+
+	public void PrintHelper(BPlusNode n, StringBuilder builder, int counter = 0)
+	{
+		builder.Append($"{counter}: ");
+		n.Keys.ToList().ForEach(k => builder.Append($"{k},"));
+		builder.Append('\n');
 
 		if (n.NType == NodeType.LEAF)
 		{
@@ -298,7 +335,7 @@ public class BPlusTree
 
 		foreach (BPlusNode c in n.Children)
 		{
-			PrintTree(c, counter+1);
+			PrintHelper(c, builder, counter + 1);
 		}
 	}
 
