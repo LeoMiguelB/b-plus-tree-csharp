@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "b-plus-tree", "b-plus-tree\b-plus-tree.csproj", "{9288FCA3-0FD8-4810-B5C7-32F4A4025752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BPlusTree", "b-plus-tree\BPlusTree.csproj", "{9288FCA3-0FD8-4810-B5C7-32F4A4025752}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

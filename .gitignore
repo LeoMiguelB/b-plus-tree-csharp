@@ -1,0 +1,64 @@
+## Build results
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+.vs/
+
+## Build logs
+*.log
+
+## VS Code
+.vscode/
+
+## Rider
+.idea/
+
+## Visual Studio Code working folders
+.vscode/
+.vscode-test/
+
+## Visual Studio folder
+.vs/
+
+## Resharper / Rider
+_ReSharper*/
+*.DotSettings.user
+
+## Backup & temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+## NuGet
+*.nupkg
+# NuGet Packages Folder
+packages/
+# NuGet v3
+project.lock.json
+project.fragment.lock.json
+
+## Dotnet CLI
+project.assets.json
+
+## Global JSON
+global.json
+
+## Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+## Publish outputs
+publish/
+
+## Others
+*.dbmdl
+*.pdb

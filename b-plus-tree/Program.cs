@@ -30,15 +30,15 @@ BPTree t = new BPTree() { Order = 3 };
 //t.InsertVal(1, 1);
 
 //split internal node on the right
-t.InsertVal(1, 1);
-t.InsertVal(2, 2);
-t.InsertVal(3, 3);
-t.InsertVal(4, 4);
-t.InsertVal(5, 5);
-t.InsertVal(6, 6);
-t.InsertVal(7, 7);
+//t.InsertVal(1, 1);
+//t.InsertVal(2, 2);
+//t.InsertVal(3, 3);
+//t.InsertVal(4, 4);
+//t.InsertVal(5, 5);
+//t.InsertVal(6, 6);
+//t.InsertVal(7, 7);
 
-t.PrintTree();
+//t.PrintTree();
 
 public class BPTree
 {
